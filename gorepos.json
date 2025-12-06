@@ -1,6 +1,7 @@
 {
   "repositories": [
     {
+      "bitbucketRepoName": "my-go-app",
       "gitHubRepoName": "my-go-app",
       "GO_VERSION": "1.25",
       "BUILD_COMMAND": "go build -o app",
