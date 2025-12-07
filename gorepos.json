@@ -2,8 +2,8 @@
   "repositories": [
     {
       "gitHubRepoName": "my-go-app",
-      "GO_VERSION": "1.25",
-      "BUILD_COMMAND": "go build -o main.go"
+      "GO_VERSION": "1.22",
+      "BUILD_COMMAND": "go build -o main ."
     }
   ]
 }
