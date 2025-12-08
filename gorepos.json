@@ -5,7 +5,7 @@
       "gitHubRepoName": "my-go-app",
       "GO_VERSION": "1.22",
       "APPLICATION_NAME": "main",
-      "BUILD_COMMAND": "go build -o main .",
+      "BUILD_COMMAND": "go run main.go",
       "SOURCE_VARIABLE_REPO": "https://github.com/sibasish-satapathy-ops/my-go-app.git"
     }
   ]
