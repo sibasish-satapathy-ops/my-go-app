@@ -1,6 +1,19 @@
-{  
-  "repositories" : [{
-  "enable_node": true,
-  "NODE_VERSION": "20.5.0"
-}]
+{
+  "repositories": [
+    {
+      "lobName": "ecaf",
+      "bitbucketProjectName": "ecaf",
+      "bitbucketRepoName": "mitra-mobile-app",
+      "blackduckBuildCommandLocation": "./gradlew",
+      "blackduckBuildCommandArguments": "--no-daemon :app:assembleSitDebug",
+      "blackduckScanSourcePath": "/android",
+      "blackduckversionLicenseDistribution": "INTERNAL",
+      "blackduckRequiredDetectors": "GRADLE",
+      "blackduckExcludeDetectors": "PIP",
+      "coverityConfigureLanguage": "kotlin",
+      "enable_node": "true",
+      "NODE_VERSION": "20.5.0",
+      "JAVA_VERSION": "21"
+    }
+  ]
 }
