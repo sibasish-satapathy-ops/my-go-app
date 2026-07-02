@@ -1,4 +1,4 @@
-{
+"repositories" : [{
   "enable_node": true,
   "NODE_VERSION": "20.5.0"
-}
+}]
