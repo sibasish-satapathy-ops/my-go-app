@@ -3,7 +3,7 @@
     {
       "lobName": "ecaf",
       "bitbucketProjectName": "ecaf",
-      "bitbucketRepoName": "mitra-mobile-app",
+      "bitbucketRepoName": "airtel-android",
       "blackduckBuildCommandLocation": "./gradlew",
       "blackduckBuildCommandArguments": "--no-daemon :app:assembleSitDebug",
       "blackduckScanSourcePath": "/android",
